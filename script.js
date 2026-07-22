@@ -1,3 +1,4 @@
+
 let forms = document.getElementById('formm');
 
 forms.addEventListener("submit", function (events) {
@@ -12,16 +13,19 @@ forms.addEventListener("submit", function (events) {
     if (name === "" || ftname === "" || email === "") {
         alert("Please fill this  feilds");
     }
-     let output = document.getElementById('output_div');
 
-        output.innerHTML =
-            "<h2>Registration Successful</h2>" +
-            "<p>Name: " + name + "</p>" +
-            "<p>Father Name: " + ftname + "</p>" +
-            "<p>E-mail: " + email + "</p>" +
-            "<p>Course: " + course + "</p>";
 
-        output.style.display = "block";
-        output.style.backgroundColor = navy;
+    let output = document.getElementById('output_div');
 
-    });
+    output.innerHTML =
+        "<h2>Registration Successful</h2>" +
+        "<p>Name: " + name + "</p>" +
+        "<p>Father Name: " + ftname + "</p>" +
+        "<p>E-mail: " + email + "</p>" +
+        "<p>Course: " + course + "</p>";
+
+    output.style.display = "block";
+    output.style.backgroundColor = navy;
+
+});
+

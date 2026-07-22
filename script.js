@@ -1,7 +1,7 @@
 
-let forms = document.getElementById('formm');
+ let forms = document.getElementById('formm');
 
-forms.addEventListener("submit", function (events) {
+ forms.addEventListener("submit", function (events) {
 
     events.preventDefault();
 

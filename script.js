@@ -1,26 +1,25 @@
 
- let forms = document.getElementById('formm');
+let forms = document.getElementById('formm');
 
- forms.addEventListener("submit", function (events) {
+forms.addEventListener("submit", function (events) {
 
     events.preventDefault();
 
-    let name = document.getElementById('std_name').value;
+    let name =  document.getElementById('std_name').value;
     let ftname = document.getElementById('ft_name').value;
-    let email = document.getElementById('std_email').value;
+    let email =  document.getElementById('std_email').value;
     let course = document.getElementById('select_course').value;
 
     if (name === "" || ftname === "" || email === "") {
         alert("Please fill this  feilds");
     }
-    if(name === ""|| ftname === "" || email === "" ){
+    if (name === "" || ftname === "" || email === "") {
         return;
     }
 
-
     let output = document.getElementById('output_div');
-    forms.addEventListener("reset", function(){
-        document.getElementById('output_div').innerHTML = "";
+    forms.addEventListener("reset", function () {
+        document.getElementById('output_div').innerHTML;
     })
 
     output.innerHTML =
@@ -31,7 +30,7 @@
         "<p>Course: " + course + "</p>";
 
     output.style.display = "block";
-    output.style.backgroundColor = navy;
+    output.style.backgroundColor = "#010913";
 
 });
 

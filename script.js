@@ -3,13 +3,14 @@ let forms =  document.getElementById('formm');
 forms.addEventListener("submit" , function(events){
 
     events.preventDefault();
-    
-   let name = document.getElementById('std_name');
-   let ftname =  document.getElementById('ft_name');
-   let email =  document.getElementById('std_email');
-   let course =  document.getElementById('select_course');
+
+   let name = document.getElementById('std_name').value;
+   let ftname =  document.getElementById('ft_name').value;
+   let email =  document.getElementById('std_email').value;
+   let course =  document.getElementById('select_course').value;
 
    if(name === "" || ftname === "" || email === ""){
-    alert("This is a required feild");
+    alert("Please fill this  feilds");
    }
-})
+ 
+});

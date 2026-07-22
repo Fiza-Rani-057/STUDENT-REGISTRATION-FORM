@@ -20,7 +20,7 @@
 
  .form_div {
      height: auto;
-     max-width: 500px;
+     max-width: 400px;
      margin: auto;
      padding: 35px;
      display: flex;
@@ -127,11 +127,36 @@
 
  }
 
- #name,
- #ftname,
- #Course,
- #E-mail {
+
+ #ftname {
      color: white;
      text-shadow: 0px 0px 3px whitesmoke;
      background: transparent;
+     margin-left: 50px;
+    font-size: 15px;
+     letter-spacing: 2px;
  }
+ #E-mail{
+     color: white;
+     text-shadow: 0px 0px 3px whitesmoke;
+     background: transparent;
+     margin-left: 70px;
+     letter-spacing: 2px;
+    font-size: 15px;
+ }
+ #Course{
+     color: white;
+     text-shadow: 0px 0px 3px whitesmoke;
+     background: transparent;
+     margin-left: 70px;
+     letter-spacing: 2px;
+    font-size: 15px;
+ }
+  #name{
+ color: white;
+     text-shadow: 0px 0px 3px whitesmoke;
+     background: transparent;
+     margin-left: 70px;
+     letter-spacing: 2px;
+    font-size: 15px;
+  }

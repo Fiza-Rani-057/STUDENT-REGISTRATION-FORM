@@ -13,9 +13,15 @@ forms.addEventListener("submit", function (events) {
     if (name === "" || ftname === "" || email === "") {
         alert("Please fill this  feilds");
     }
+    if(name === ""|| ftname === "" || email === "" ){
+        return;
+    }
 
 
     let output = document.getElementById('output_div');
+    forms.addEventListener("reset", function(){
+        document.getElementById('output_div').innerHTML = "";
+    })
 
     output.innerHTML =
         "<h2>Registration Successful</h2>" +

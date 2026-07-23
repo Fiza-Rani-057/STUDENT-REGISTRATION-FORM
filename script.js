@@ -30,7 +30,7 @@
         "<p>Course: " + course + "</p>";
 
     output.style.display = "block";
-    output.style.backgroundColor = "#010913";
+    output.style.backgroundColor = "linear-gradient(to right, #434343, #000000)";
 
 });
 

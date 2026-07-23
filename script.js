@@ -14,7 +14,7 @@
   
     if (name === "" || ftname === "" || email === "" || age === ""
     || course === "" ) {
-        alert("This is a required feild");
+        alert("Please fill the required feilds");
         }
 
     if (name === "" || ftname === "" || email === "" || age === ""
@@ -22,7 +22,7 @@
         return;
     }
     if(age < 15 || age > 35){
-        alert("Yore not eligible");
+        alert("Age should be 15-35");
     }
 
     let output = document.getElementById('output_div');

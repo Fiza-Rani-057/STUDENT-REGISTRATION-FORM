@@ -43,7 +43,7 @@
  }
 
  .main_heading {
-     font-size: 20px;
+     font-size: 25px;
      color: white;
      text-align: center;
      background: transparent;
@@ -57,7 +57,7 @@
 
  #std_name {
      padding-left: 15px;
-     padding-right: 100px;
+     padding-right: 200px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -66,14 +66,30 @@
      background-color: none;
      margin-bottom: 10px;
      margin-top: 10px;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
+ }
+ #std_name::placeholder{
+  color: rgba(253, 253, 253, 0.4);
+  font-weight: 300;
+ }
+ #std_age::placeholder{
+   color: rgba(253, 253, 253, 0.4);
+  font-weight: 300;
+ }
+ #std_email::placeholder{
+   color: rgba(253, 253, 253, 0.4);
+  font-weight: 300;
+ }
+ #ft_name::placeholder{
+   color: rgba(253, 253, 253, 0.4);
+  font-weight: 300;
  }
 
  #std_age {
 
      padding-left: 15px;
-     padding-right: 100px;
+     padding-right: 200px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -82,13 +98,13 @@
      color: white;
      background: transparent;
      background-color: none;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
  #ft_name {
      padding-left: 15px;
-     padding-right: 100px;
+     padding-right: 200px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -97,14 +113,14 @@
      color: white;
      background: transparent;
      background-color: none;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
  #std_email,
  #std_course {
      padding-left: 15px;
-     padding-right: 100px;
+     padding-right: 200px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -113,28 +129,29 @@
      color: white;
      background: transparent;
      border: 2px solid #82afeb;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
  #select_course {
      margin-top: 10px;
      padding-left: 15px;
-     padding-right: 100px;
+     padding-right: 200px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
      margin-bottom: 10px;
      color: #061524;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
  #btn1,
  #btn2 {
+    width: 100%;
      margin-top: 10px;
-     padding-left: 30px;
-     padding-right: 30px;
+     padding-left: 50px;
+     padding-right: 50px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -142,20 +159,37 @@
      color: white;
      background-color: none;
      border: 2px solid #16273D;
-     border: 2px solid whitesmoke;
+     border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
-     margin-left: 10px;
+    
  }
-
+ #btn1{
+    background: linear-gradient(135deg, #00b4d8, #192a32);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 15px rgba(6, 10, 11, 0.4);
+  transition: all 0.3s ease;
+ }
+ #btn1:hover{
+   background: linear-gradient(135deg, #07b7f1, #8b8dee);
+     box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
+ }
+ #btn2{
+    background: linear-gradient(135deg, #06c4ee, #192a32);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 15px rgba(36, 61, 68, 0.4);
+  transition: all 0.3s ease;
+ }
+ #btn2:hover{
+   background: linear-gradient(135deg, #07b7f1, #8b8dee);
+     box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
+ }
  button:hover {
 
-     background: #2C3E50;
-     /* fallback for old browsers */
+     background: #89add1;
      background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
-     /* Chrome 10-25, Safari 5.1-6 */
      background: linear-gradient(to right, #4CA1AF, #4a5c6e);
-     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
      transition: .3s;
      cursor: pointer;
 

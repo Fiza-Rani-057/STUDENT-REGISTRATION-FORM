@@ -6,51 +6,47 @@
      background-repeat: no-repeat;
      background-size: cover;
      backdrop-filter: blur(5px);
- 
-background: #000000; 
-background: -webkit-linear-gradient(to right, #434343, #000000); 
-background: linear-gradient(to right, #434343, #000000);
 
+
+     background: #2C3E50;
+     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+
+     background: linear-gradient(to right, #4CA1AF, #2C3E50);
 
  }
+
  #formm {
-   
+
      background-color: none;
-       background: linear-gradient(
-    135deg, 
-    rgba(27, 27, 27, 0.08), 
-    rgba(255, 255, 255, 0.02)
-  );
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
- 
+     background: transparent;
+
 
  }
 
  .form_div {
      height: auto;
-     max-width: 400px;
+     max-width: 500px;
      margin: auto;
      padding: 35px;
      display: flex;
      flex-wrap: wrap;
-     justify-content: center;
-     margin-top: 5%;
+     justify-content: left;
+     margin-top: 2%;
+     margin-bottom: 3%;
      gap: 25px;
      background: transparent;
      background-color: none;
      border-radius: 20px;
      border: 2px solid whitesmoke;
      box-shadow: 0px 2px 10px whitesmoke;
-     background: linear-gradient(
-    135deg, 
-    rgba(27, 27, 27, 0.08), 
-    rgba(255, 255, 255, 0.02)
-  );
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(190, 189, 189, 0.37);
+
+     background: #2C3E50;
+     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+     background: linear-gradient(to right, #4CA1AF, #2C3E50);
+     border-radius: 16px;
+     border: 1.5px solid rgba(255, 255, 255, 0.4);
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+     padding: 30px;
  }
 
  .main_heading {
@@ -59,12 +55,17 @@ background: linear-gradient(to right, #434343, #000000);
      text-align: center;
      background: transparent;
      background-color: none;
-     text-shadow: 0px 0px 5px white;
+     color: #FFFFFF;
+     text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+
+     background: linear-gradient(135deg, #FFFFFF 0%, #A5F3FC 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
  }
 
  #std_name {
      padding-left: 15px;
-     padding-right: 30px;
+     padding-right: 100px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -77,9 +78,25 @@ background: linear-gradient(to right, #434343, #000000);
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
+ #std_age {
+
+     padding-left: 15px;
+     padding-right: 100px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     color: white;
+     background: transparent;
+     background-color: none;
+     border: 2px solid whitesmoke;
+     box-shadow: 0px 0px 4px whitesmoke;
+ }
+
  #ft_name {
      padding-left: 15px;
-     padding-right: 30px;
+     padding-right: 100px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -95,7 +112,7 @@ background: linear-gradient(to right, #434343, #000000);
  #std_email,
  #std_course {
      padding-left: 15px;
-     padding-right: 30px;
+     padding-right: 100px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -111,12 +128,12 @@ background: linear-gradient(to right, #434343, #000000);
  #select_course {
      margin-top: 10px;
      padding-left: 15px;
-     padding-right: 30px;
+     padding-right: 100px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
      margin-bottom: 10px;
-     color: #a9bddc;
+     color: #061524;
      border: 2px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
@@ -124,8 +141,8 @@ background: linear-gradient(to right, #434343, #000000);
  #btn1,
  #btn2 {
      margin-top: 10px;
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 30px;
+     padding-right: 30px;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 10px;
@@ -140,7 +157,13 @@ background: linear-gradient(to right, #434343, #000000);
 
  button:hover {
 
-     background:linear-gradient(to right, #434343, #858484);
+     background: #2C3E50;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #4CA1AF, #4a5c6e);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
      transition: .3s;
      cursor: pointer;
 
@@ -148,37 +171,47 @@ background: linear-gradient(to right, #434343, #000000);
 
 
  #ftname {
-     color:azure;
+     color: azure;
      text-shadow: 0px 0px 3px whitesmoke;
      background: transparent;
-     margin-left: 50px;
+     margin-left: 10px;
      font-size: 15px;
      letter-spacing: 2px;
  }
 
  #E-mail {
-   color:azure ;
+     color: azure;
      text-shadow: 0px 0px 3px whitesmoke;
      background: transparent;
-     margin-left: 70px;
+     margin-left: 10px;
      letter-spacing: 2px;
      font-size: 15px;
  }
 
  #Course {
-    color:azure ;
+     color: azure;
      text-shadow: 0px 0px 3px whitesmoke;
      background: transparent;
-     margin-left: 70px;
+     margin-left: 10px;
      letter-spacing: 2px;
      font-size: 15px;
  }
 
  #name {
-     color:azure ;
+     color: azure;
      text-shadow: 0px 0px 3px whitesmoke;
      background: transparent;
-     margin-left: 70px;
+     margin-left: 10px;
+     letter-spacing: 2px;
+     font-size: 15px;
+
+ }
+
+ #age {
+     color: azure;
+     text-shadow: 0px 0px 3px whitesmoke;
+     background: transparent;
+     margin-left: 10px;
      letter-spacing: 2px;
      font-size: 15px;
 

@@ -9,12 +9,19 @@
     let ftname = document.getElementById('ft_name').value;
     let email =  document.getElementById('std_email').value;
     let course = document.getElementById('select_course').value;
+    let age = document.getElementById('std_age').value;
 
-    if (name === "" || ftname === "" || email === "") {
-        alert("This is a required Feild");
-    }
-    if (name === "" || ftname === "" || email === "") {
+    if (name === "" || ftname === "" || email === "" || age === ""
+    || course === "" ) {
+        alert("This is a required feild");
+        }
+
+    if (name === "" || ftname === "" || email === "" || age === ""
+         || course === "" ) {
         return;
+    }
+    if(age < 15 || age > 35){
+        alert("Yore not eligible");
     }
 
     let output = document.getElementById('output_div');
@@ -26,11 +33,12 @@
         "<h2>Registration Successful</h2>" +
         "<p>Name: " + name + "</p>" +
         "<p>Father Name: " + ftname + "</p>" +
+         "<p> Age: " + age + "</p>" +
         "<p>E-mail: " + email + "</p>" +
         "<p>Course: " + course + "</p>";
 
     output.style.display = "block";
-    output.style.backgroundColor = "linear-gradient(to right, #434343, #000000)";
+    output.style.backgroundColor = " background: linear-gradient(to right, #4CA1AF, #2C3E50);"
 
 });
 

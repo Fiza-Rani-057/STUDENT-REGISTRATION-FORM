@@ -1,7 +1,7 @@
 
-let forms = document.getElementById('formm');
+ let forms = document.getElementById('formm');
 
-forms.addEventListener("submit", function (events) {
+ forms.addEventListener("submit", function (events) {
 
     events.preventDefault();
 
@@ -11,15 +11,15 @@ forms.addEventListener("submit", function (events) {
     let course = document.getElementById('select_course').value;
 
     if (name === "" || ftname === "" || email === "") {
-        alert("Please fill this  feilds");
+        alert("This is a required Feild");
     }
     if (name === "" || ftname === "" || email === "") {
         return;
     }
 
     let output = document.getElementById('output_div');
-    forms.addEventListener("reset", function () {
-        document.getElementById('output_div').innerHTML;
+    forms.addEventListener("reset", function (){
+        document.getElementById('output_div').innerHTML = "";
     })
 
     output.innerHTML =

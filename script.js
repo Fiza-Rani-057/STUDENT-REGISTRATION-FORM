@@ -9,8 +9,9 @@
     let ftname = document.getElementById('ft_name').value;
     let email =  document.getElementById('std_email').value;
     let course = document.getElementById('select_course').value;
-    let age = document.getElementById('std_age').value;
-
+    let age =  document.getElementById('std_age').value;
+    let date = new Date().toLocaleDateString();
+  
     if (name === "" || ftname === "" || email === "" || age === ""
     || course === "" ) {
         alert("This is a required feild");
@@ -35,7 +36,8 @@
         "<p>Father Name: " + ftname + "</p>" +
          "<p> Age: " + age + "</p>" +
         "<p>E-mail: " + email + "</p>" +
-        "<p>Course: " + course + "</p>";
+        "<p>Course: " + course + "</p>"+
+        "<p>Date: " + date + "</p>";
 
     output.style.display = "block";
     output.style.backgroundColor = " background: linear-gradient(to right, #4CA1AF, #2C3E50);"

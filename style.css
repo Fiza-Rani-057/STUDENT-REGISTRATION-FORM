@@ -275,4 +275,20 @@ input[type="number"]::-webkit-outer-spin-button {
      color: white;
      font-size: 15px;
      margin-top: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 25px;
+ }
+ #output_div h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+ }
+ #output_div p{
+    color: white;
+    text-shadow: gray;
+    background: transparent;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }

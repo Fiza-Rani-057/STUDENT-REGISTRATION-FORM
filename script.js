@@ -49,7 +49,7 @@
         "<p>E-mail: " + email + "</p>" +
         "<p>Course: " + course + "</p>"+
         "<p>Date: " + date + "</p>";
-        
+
     output.style.display = "block";
     output.style.backgroundColor = " background: linear-gradient(to right, #4CA1AF, #2C3E50);"
     

@@ -254,9 +254,6 @@
      color: white;
      font-size: 15px;
      margin-top: 20px;
-     display: flex;
-     flex-wrap: wrap;
-     gap: 25px;
      background: #616161;
      background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
      background: linear-gradient(to right, #9bc5c3, #616161);

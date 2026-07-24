@@ -10,6 +10,7 @@
      background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
      background: linear-gradient(to right, #4CA1AF, #2C3E50);
  }
+
  #formm {
      background-color: none;
      background: transparent;
@@ -38,6 +39,7 @@
      border: 1.5px solid rgba(255, 255, 255, 0.4);
      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
      padding: 30px;
+
  }
 
  .main_heading {
@@ -67,21 +69,25 @@
      border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
- #std_name::placeholder{
-  color: rgba(253, 253, 253, 0.4);
-  font-weight: 300;
+
+ #std_name::placeholder {
+     color: rgba(253, 253, 253, 0.4);
+     font-weight: 300;
  }
- #std_age::placeholder{
-   color: rgba(253, 253, 253, 0.4);
-  font-weight: 300;
+
+ #std_age::placeholder {
+     color: rgba(253, 253, 253, 0.4);
+     font-weight: 300;
  }
- #std_email::placeholder{
-   color: rgba(253, 253, 253, 0.4);
-  font-weight: 300;
+
+ #std_email::placeholder {
+     color: rgba(253, 253, 253, 0.4);
+     font-weight: 300;
  }
- #ft_name::placeholder{
-   color: rgba(253, 253, 253, 0.4);
-  font-weight: 300;
+
+ #ft_name::placeholder {
+     color: rgba(253, 253, 253, 0.4);
+     font-weight: 300;
  }
 
  #std_age {
@@ -139,14 +145,26 @@
      padding-bottom: 5px;
      border-radius: 10px;
      margin-bottom: 10px;
-     color: #061524;
+     color: white;
      border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
  }
 
+ option {
+     background-color: #203A43;
+     color: white;
+     background: #34495E;
+     color: white;
+     font-size: 15px;
+ }
+ input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
  #btn1,
  #btn2 {
-    width: 100%;
+     width: 100%;
      margin-top: 10px;
      padding-left: 50px;
      padding-right: 50px;
@@ -155,34 +173,38 @@
      border-radius: 10px;
      font-size: 15px;
      color: white;
-     background-color: none;
      border: 2px solid #16273D;
      border: 1px solid whitesmoke;
      box-shadow: 0px 0px 4px whitesmoke;
-    
+
  }
- #btn1{
-    background: linear-gradient(135deg, #00b4d8, #192a32);
-  color: #ffffff;
-  border: none;
-  box-shadow: 0 4px 15px rgba(6, 10, 11, 0.4);
-  transition: all 0.3s ease;
+
+ #btn1 {
+     background: linear-gradient(135deg, #00b4d8, #192a32);
+     color: #ffffff;
+     border: none;
+     box-shadow: 0 4px 15px rgba(6, 10, 11, 0.4);
+     transition: all 0.3s ease;
  }
- #btn1:hover{
-   background: linear-gradient(135deg, #07b7f1, #8b8dee);
+
+ #btn1:hover {
+     background: linear-gradient(135deg, #07b7f1, #8b8dee);
      box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
  }
- #btn2{
-    background: linear-gradient(135deg, #06c4ee, #192a32);
-  color: #ffffff;
-  border: none;
-  box-shadow: 0 4px 15px rgba(36, 61, 68, 0.4);
-  transition: all 0.3s ease;
+
+ #btn2 {
+     background: linear-gradient(135deg, #06c4ee, #192a32);
+     color: #ffffff;
+     border: none;
+     box-shadow: 0 4px 15px rgba(36, 61, 68, 0.4);
+     transition: all 0.3s ease;
  }
- #btn2:hover{
-   background: linear-gradient(135deg, #07b7f1, #8b8dee);
+
+ #btn2:hover {
+     background: linear-gradient(135deg, #07b7f1, #8b8dee);
      box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
  }
+
  button:hover {
 
      background: #89add1;
@@ -252,4 +274,5 @@
      border: 1px solid rgba(255, 255, 255, .2);
      color: white;
      font-size: 15px;
+     margin-top: 20px;
  }

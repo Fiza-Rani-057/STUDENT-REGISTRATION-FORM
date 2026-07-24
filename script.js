@@ -12,9 +12,20 @@
     let age =  document.getElementById('std_age').value;
     let date = new Date().toLocaleDateString();
   
-    if (name === "" || ftname === "" || email === "" || age === ""
-    || course === "" ) {
-        alert("Please fill the required feilds");
+        if(name === ""){
+            alert("Name is required");
+        }
+         if(ftname === ""){
+            alert("Father name is required");
+        }
+         if(age === ""){
+            alert("Age is required");
+        }
+         if(email === ""){
+            alert("email is required");
+        }
+         if(course === ""){
+            alert("course is required");
         }
 
     if (name === "" || ftname === "" || email === "" || age === ""
@@ -38,9 +49,9 @@
         "<p>E-mail: " + email + "</p>" +
         "<p>Course: " + course + "</p>"+
         "<p>Date: " + date + "</p>";
-
+        
     output.style.display = "block";
     output.style.backgroundColor = " background: linear-gradient(to right, #4CA1AF, #2C3E50);"
-
+    
 });
 

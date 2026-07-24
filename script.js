@@ -51,7 +51,6 @@ forms.addEventListener("submit", function (events) {
         "<p>Date: " + date + "</p>";
 
     output.style.display = "block";
-    output.style.backgroundColor = " background: linear-gradient(to right, #4CA1AF, #2C3E50);"
-
+    output.style.backgroundColor = " background:linear-gradient(to right, #9bc5c3, #616161);"
 });
 

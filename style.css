@@ -151,10 +151,9 @@
  }
 
  option {
-     background-color: #203A43;
      color: white;
-     background: #34495E;
-     color: white;
+    background: rgba(6, 203, 243, 0.4);
+     color: black;
      font-size: 15px;
  }
  input[type="number"]::-webkit-inner-spin-button,
@@ -190,6 +189,7 @@ input[type="number"]::-webkit-outer-spin-button {
  #btn1:hover {
      background: linear-gradient(135deg, #07b7f1, #8b8dee);
      box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
+     cursor: pointer;
  }
 
  #btn2 {
@@ -203,17 +203,10 @@ input[type="number"]::-webkit-outer-spin-button {
  #btn2:hover {
      background: linear-gradient(135deg, #07b7f1, #8b8dee);
      box-shadow: 0 6px 20px rgba(6, 203, 243, 0.6);
- }
-
- button:hover {
-
-     background: #89add1;
-     background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
-     background: linear-gradient(to right, #4CA1AF, #4a5c6e);
-     transition: .3s;
      cursor: pointer;
-
  }
+
+
 
 
  #ftname {

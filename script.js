@@ -28,12 +28,13 @@ forms.addEventListener("submit", function (events) {
         alert("course is required");
     }
 
-    if (name === "" || ftname === "" || email === "" || age === ""
-        || course === "") {
+    if (name === "" || ftname === "" || email === "" || age === "" 
+          || course === "") {
         return;
     }
     if (age < 15 || age > 35) {
         alert("Age should be 15-35");
+        return;
     }
 
     let output = document.getElementById('output_div');
